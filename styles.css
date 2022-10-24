@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'InputMono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('static/InputMono.woff2') format('woff2');
+    unicode-range: U+000-5FF;
+}
+
+* {
+    font-family: 'InputMono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-color: #18181C;
+}
+
+
+body {
+    background-color: #18181C;
+    color: #d3e3f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    height: 175px;
+    width: 175px;
+    border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+#name {
+    background-color: #a8e1fb;
+    color: #120E0E;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+h3 {
+    color: #a8e1fb;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    color: #d3e3f1;
+}
+
+.links {
+    display: flex;
+    gap: 3rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
