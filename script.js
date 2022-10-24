@@ -12,7 +12,7 @@ let greetingMessage;
 
 if (currentHour < 12) {
   greetingMessage = "Good morning, ";
-} else if (currentHour < 10) {
+} else if (currentHour < 18) {
   greetingMessage = "Good afternoon, ";
 } else {
   greetingMessage = "Good evening, ";
